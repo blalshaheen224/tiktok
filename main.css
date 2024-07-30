@@ -1,0 +1,93 @@
+body
+{
+    background-color: black;
+    font-family: "Cairo", sans-serif;   
+}
+.container
+{
+    width: 70%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-family: "Cairo", sans-serif;   
+}
+#subject , #title
+{
+    width: 247px;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+    font-size: 17px;
+    font-family: "Cairo", sans-serif;   
+    font-weight: bold;
+    text-align: center;
+}
+
+.container img
+{
+   margin-top: 40px;
+   width: 24%;
+   border-radius: 15px 15px 15px 15px;
+}
+
+.form
+{
+    margin: auto;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    background-color: silver;
+    padding: 15px;
+    border-radius: 15px 15px 15px 15px;
+    font-family: "Cairo", sans-serif;   
+}
+input[type="file"]
+{
+    width: 50%;
+    font-size: 19px;
+    margin-bottom: 15px;
+    font-family: "Cairo", sans-serif;   
+}
+input[type='submit']
+{
+    border: none;
+    font-size: 19px;
+    font-size: 19px;
+    font-weight: bold;
+    width: 120px;
+    padding:10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: dimgrey;
+    font-family: "Cairo", sans-serif;  
+}
+
+.linko
+{
+font-size: 20px;
+font-weight: bold;
+cursor: pointer;
+text-decoration: none;
+color:rgb(17, 17, 118)
+}
+
+input[type='submit']:hover
+{
+    background-color: darkgoldenrod;
+}
+
+.faild
+{
+    color: brown;
+    font-size: 17px;
+    font-family: "Cairo", sans-serif;  
+}
+
+.succes
+{
+    color: rgb(15, 232, 33);
+    font-size: 17px;
+    font-family: "Cairo", sans-serif;  
+}
